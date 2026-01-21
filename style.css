@@ -1,0 +1,49 @@
+h1 {
+    font-size: 2em;
+    color:#3C7C8F
+}
+
+
+body {
+    width:50%;
+    margin:auto;
+
+}
+p{
+
+
+}
+
+
+#tagline {
+    font-size: 0.8em;
+}
+
+#phototext {
+    font-size: 0.8em;
+}
+
+#byline {
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:3C7C8F
+
+}
+
+
+p.story {
+    /* this is where paragraphs are style */
+
+     /* color: pink; */
+}
+
+/* MOBILE RULES */
+
+@media (orientation: portrait) {
+    #content {
+        width:100%
+    }
+    body {
+        font-size: 2em;
+    }
+}
